@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+main, html {
+	background: url('https://images.pexels.com/photos/3566191/pexels-photo-3566191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.box {
+	width: 500px;
+	height: 150px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.welcome {
+	margin-top: 90px;
+	color: white;
+	text-shadow: 2px 1px 1px black;
+}
+
+.welcome h1 {
+	font-family:'Slabo', serif;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	margin-bottom: 40px;
+	font-size: 35px;
+}
+
+.btnNewGame {
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 120px;
+	height: 40px;
+	padding: 5px;
+	color: silver;
+	background-color: green;
+	font-weight: bold;
+	font-size: 15px;
+	box-shadow: 2px 1px 1px black;
+	text-shadow: 1px 1px 1px black;
+	border: 1px solid: white;
+
+}
+
+
+.labl {
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 40px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	box-shadow: 2px 2px 1px black;
+}
+
+
+
+
+.btn {
+	height: 40px;
+	color: black;
+	margin-top: 30px;
+	font-weight: bold;
+	box-shadow: 2px 1px 1px black;
+}
+
+
+.resultsTable {
+	color: white;
+	text-shadow: 2px 1px 1px black;
+}
+
+.vs {
+	font-size: 28px;
+}
+
+.name {
+	color: rgba(228, 209, 83,0.9);
+	text-shadow: 1px 1px 1px black;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.name-pc {
+	color: rgba(143, 206, 75,0.9);
+	text-shadow: 1px 1px 1px black;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.choice {
+	font-size: 17px;
+}
+
+.results {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1px 1px 1px red;
