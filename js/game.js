@@ -1,16 +1,16 @@
 
 var newGameBtn = document.getElementById('js-newGameButton');
-pickRock = document.getElementById('js-playerPick_rock'),
+    pickRock = document.getElementById('js-playerPick_rock'),
     pickPaper = document.getElementById('js-playerPick_paper'),
     pickScissors = document.getElementById('js-playerPick_scissors');
-newGameBtn = document.getElementById('js-newGameButton'),
+    newGameBtn = document.getElementById('js-newGameButton'),
     newGameElem = document.getElementById('js-newGameElement'),
     pickElem = document.getElementById('js-playerPickElement'),
     resultsElem = document.getElementById('js-resultsTableElement');
-playerPointsElem = document.getElementById('js-playerPoints'),
+    playerPointsElem = document.getElementById('js-playerPoints'),
     playerNameElem = document.getElementById('js-playerName'),
     computerPointsElem = document.getElementById('js-computerPoints');
-playerPickElem = document.getElementById('js-playerPick'),
+    playerPickElem = document.getElementById('js-playerPick'),
     computerPickElem = document.getElementById('js-computerPick'),
     playerResultElem = document.getElementById('js-playerResult'),
     computerResultElem = document.getElementById('js-computerResult');
@@ -44,7 +44,7 @@ function setGameElements() {
             resultsElem.style.display = 'block';
             break;
         case 'ended':
-            newGameBtn.innerText = 'Jeszcze raz';
+            newGameBtn.innerText = 'PLAY AGAIN !';
         case 'notStarted':
         default:
             newGameElem.style.display = 'block';
@@ -81,7 +81,7 @@ function checkRoundWinner(playerPick, computerPick) {
     playerResultElem.innerHTML = computerResultElem.innerHTML = '';
     var winnerIs = 'player';
     if (playerPick == computerPick) {
-        winnerIs = 'none'; // remis
+        winnerIs = 'none'; // DRAW
     }
     else if (
         (computerPick == 'rock' && playerPick == 'scissors') ||
